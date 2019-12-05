@@ -9,5 +9,7 @@ namespace ApiLibrary.Repository.Interface
         void Add(Book book);
         Book FindByCode(int barCode);
         List<Book> ListBooks();
+
+        void Update(Book book);
     }
 }

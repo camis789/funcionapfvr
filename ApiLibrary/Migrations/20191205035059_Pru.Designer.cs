@@ -3,14 +3,16 @@ using System;
 using ApiLibrary.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace ApiLibrary.Migrations
 {
     [DbContext(typeof(DbContextBooks))]
-    partial class DbContextBooksModelSnapshot : ModelSnapshot
+    [Migration("20191205035059_Pru")]
+    partial class Pru
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

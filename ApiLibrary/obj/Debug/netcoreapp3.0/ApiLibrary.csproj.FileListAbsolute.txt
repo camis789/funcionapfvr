@@ -47,3 +47,4 @@ C:\Users\maris\Downloads\ApiLibrary\ApiLibrary\bin\Debug\netcoreapp3.0\ApiLibrar
 C:\Users\maris\Downloads\ApiLibrary\ApiLibrary\bin\Debug\netcoreapp3.0\ApiLibrary.pdb
 C:\Users\maris\Downloads\ApiLibrary\ApiLibrary\obj\Debug\netcoreapp3.0\ApiLibrary.dll
 C:\Users\maris\Downloads\ApiLibrary\ApiLibrary\obj\Debug\netcoreapp3.0\ApiLibrary.pdb
+C:\Users\maris\Downloads\ApiLibrary\ApiLibrary\obj\Debug\netcoreapp3.0\ApiLibrary.MvcApplicationPartsAssemblyInfo.cache

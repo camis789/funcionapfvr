@@ -18,6 +18,7 @@ namespace ApiLibrary.Repository.Class
 
         public void Add(Book book)
         {
+            book.DateCreate = DateTime.Now;
             _context.Books.Add(book);
             _context.SaveChanges();
         }
@@ -25,6 +26,12 @@ namespace ApiLibrary.Repository.Class
         public Book FindByCode(int Code)
         {
             return _context.Books.Where(x => x.Code == Code).FirstOrDefault();
+        }
+
+        public void Update(Book book)
+        {
+            _context.Books.Update(book);
+            _context.SaveChanges();
         }
 
         public List<Book> ListBooks()

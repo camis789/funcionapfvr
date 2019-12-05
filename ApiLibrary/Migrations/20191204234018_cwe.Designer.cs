@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ApiLibrary.Migrations
 {
     [DbContext(typeof(DbContextBooks))]
-    [Migration("20191204225627_piruflamej")]
-    partial class piruflamej
+    [Migration("20191204234018_cwe")]
+    partial class cwe
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
